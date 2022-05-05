@@ -1,0 +1,89 @@
+body {
+    background-color: aquamarine;
+    background-image: url("pics/Servers.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1, h2 {
+    color: red;
+}
+img{
+    display: block;
+    height:25%;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav {
+	width: 100%;
+	height: 60px;
+	background-color: white;
+    
+}
+nav p {
+	font-family: Arial;
+	color: black;
+	font-size: 26px;
+	line-height: 20px;
+	float: left;
+	/* Make sure to add flot left so text goes left not down */
+	padding: 0px 20px;
+}
+nav ul {
+	float: left;
+}
+nav ul li {
+	float: left;
+	list-style: none;
+	position: relative;
+	/* Set this to relative which allows for us to add a position absolute inside the sub items inside the navigation */
+}
+nav ul li a {
+	display: block;
+	font-family: Arial;
+	color: black;
+	font-size: 17px;
+	padding: 10px 10px;
+	/* This is how to set how big the clickable area is */
+	text-decoration: none;
+	/* This is to remove the underscore */
+}
+nav ul li ul {
+	display: none;
+	/* Set this to none to make dropdown work */
+	position: absolute;
+	background-color: white;
+	padding: 10px;
+	border-radius: 0px 0px 5px 5px;
+	/* Makes bottom of dropdown rounded */
+}
+nav ul li:hover ul {
+	display: block;
+	/* set this to block and put :hover in tab with what you what to drop down */
+}
+nav ul li ul li {
+	width: 85px;  
+	/* width of the drop down box to fit long text */
+	border-radius: 5px;
+}
+nav ul li ul li a {
+	padding: 11px 14px;
+	/* Set spacing between the list items in the drop down */
+}
+nav ul li ul li a:hover {
+	background-color: #00b300;
+    border-radius: 10%;
+	/* the colour of the background when you hover over it */
+}
+nav ul:hover li {
+	display: block;
+}
+nav ul li a:hover {
+	background-color: #00b300;
+    border-radius: 10%;
+}
+p, .class {
+    background-color: rgba(255, 255, 255, 0.5);
+}
