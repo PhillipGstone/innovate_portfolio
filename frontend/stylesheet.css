@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&family=Tapestry&display=swap');
 body {
     background-color: aquamarine;
     background-image: url("pics/Servers.jpg");
@@ -11,12 +12,21 @@ h1, h2 {
     text-align: center;
     text-shadow: 2px 2px black;
 }
-img{
+.container {
+	display: flex;
+	min-height: 20vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.pics {
     display: block;
-    height:25%;
-    width: 25%;
-    margin-left: auto;
-    margin-right: auto;
+    height:500px;
+    width: 500px;
+    /* margin-left: auto;
+    margin-right: auto; */
+	text-align: center;
 }
 nav {
 	width: 100%;
@@ -88,10 +98,13 @@ nav ul li a:hover {
 }
 p, .text {
     background-color: rgba(255, 255, 255, 0.5);
+	padding: 10px;
+	font-family: 'Tapestry', cursive;
 }
 .text {
     text-align: center;
     width: 8%;
     margin-left: auto;
     margin-right: auto;
+	
 }
