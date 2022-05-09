@@ -108,3 +108,11 @@ while num < 10:
     print(num)
     num += 1
 
+# Everything is an object! 
+# attribute of a string object is it's length
+
+# class ThisClass():
+#     def funcction():
+#         # this is a method.
+
+# Object -> Attributes -> Methods
