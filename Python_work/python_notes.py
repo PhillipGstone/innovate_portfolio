@@ -116,3 +116,12 @@ while num < 10:
 #         # this is a method.
 
 # Object -> Attributes -> Methods
+
+# OOP -> file structure. classes in other files and import them in. Start with it in folder and you can pull it out into other files if it gets bigger.
+
+# make a Virtural space. -> py -m venv flask_venv  (flask_venv - Name)
+# flask_venv\scripts\activate. To deactivate the venv. just type deactivate 
+# pip install flask
+# py app.py to run the website. Make sure it still running because errors can deactivate the website so just py app.py and right-click the link again
+# if no interpter click on it at bottom, enter, enter. if that not work. ->scripts->right click python.exe, copy path, paste in bar at top after clicking the add.
+# make sure you're not trying to import anything thats not in the file family because that could cause issues. 

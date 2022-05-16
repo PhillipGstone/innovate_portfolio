@@ -1,0 +1,17 @@
+body {
+    background-color: aquamarine;
+    margin: 6px;
+    padding-left: 14px;
+} 
+h1,h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+    color: blueviolet;
+    font-size: 22px;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Times New Roman', Times, serif;
+}

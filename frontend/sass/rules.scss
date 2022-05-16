@@ -1,0 +1,12 @@
+// Can add another file to just keep all the rules and stuff here. OOP. Still works in the same file tho. Just nicer if if you have loads to keep them in another file.
+$mainAccent: #ed254e;   // Make it a variable 
+$secondarycolour: #4f4db3;
+$headfont: "Poiret One", cursive;
+
+@mixin heading($special) {
+  // Make a mixin if you gonna use a bunch of stuff many times. Save lines. DRY
+  font-family: $headfont;
+  color: $sp;
+  text-align: center;
+  margin-top: 0px;
+}

@@ -1,0 +1,17 @@
+{% extends 'base.html' %} 
+
+{% block content %} 
+<h1>This is my home custom page</h1>
+{% for each_band in bands %}
+<h2>{{ each_band }}</h2>
+{% endfor %}
+
+
+<!-- <form ></form> -->
+
+<form action="/about" method="post">
+    <input type="text" name="add_band" id="band_add" placeholder="Enter the band you wish to add!">
+    <button type="submit" style="display: none;">submit</button>
+</form>
+
+{% endblock %}

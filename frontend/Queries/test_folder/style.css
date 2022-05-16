@@ -1,0 +1,25 @@
+.desktop, .mobile {
+    display: none;
+}
+
+@media (orientation: portrait) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: aliceblue;
+        background-color: black;
+    }
+    .mobile {
+        display: inline-block;
+    }
+} 
+
+@media (orientation: landscape) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        background-color: aliceblue;
+    }
+    .desktop {
+        display: inline-block;
+    }
+} 

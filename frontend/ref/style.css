@@ -1,0 +1,45 @@
+.bg-light {
+    background-color: aqua !important;
+/* Make it !important to overrite the bootstrap css if you want to change it. id takes more presitense then class */
+/* You can find the tag/class in the inspect bit in the browser. */
+}
+.button1 {
+    background-color: antiquewhite;
+    padding: 25px;
+    border: 2px solid rgb(194, 121, 26);
+}
+.button2 {
+    background-color: antiquewhite;
+    padding: 25px;
+    border: 2px solid rgb(194, 121, 26);
+    transition-duration: 1.5;
+}
+.button2:hover {  /* :hover is the pseudo class */
+    background-color: green;
+    color: aliceblue;
+    border: 2px solid rgb(24, 73, 207);
+}
+.button3 {
+    background-color: antiquewhite;
+    padding: 25px;
+    border: 2px solid rgb(194, 121, 26);
+    transition-duration: 1.5;
+    box-shadow: 2px 2px rgb(221, 190, 16);
+}
+.button3:hover {
+    background-color: green;
+    color: aliceblue;
+    border: 2px solid rgb(24, 73, 207);
+    cursor: pointer;
+}
+.button3:active {
+    transform: translateY(2px);
+}
+.button4 {
+    background-color: red;
+    padding: 25px;
+    border: 2px solid rgb(26, 43, 194);
+    box-shadow: 2px 2px rgb(221, 190, 16);
+    opacity: 0.5;
+    cursor: not-allowed;
+}
